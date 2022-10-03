@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ana Bennett Portfolio</title>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Long+Cang&family=Noto+Sans+Mono:wght@700&family=Permanent+Marker&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+
+    <style type="text/css">
+      .fa_custom {
+        color: #0099cc;
+      }
+    </style>
+  </head>
+  <!-- GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application (what is it taken you to )
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+``` -->
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <!-- <div class=""name-nav> 
+    <h1>Ana Bennett</h1><br/>
+  </div> -->
+      <div class="name-nav">
+        <!-- <div class="nav-name-div">  -->
+        <h1>Ana Bennett</h1>
+        <!-- </div> -->
+        <!-- <h1>Ana Bennett</h1><br/> -->
+        <div class="links-wrapper">
+        <a href="#about-me">About Me </a>
+        <a href="#my-work">My Work </a>
+        <a href="#contact-me">Contact Me</a>
+      </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <img id="profile-pic" src="./assets/images/lights header .jpeg" alt="" />
+      <h2 class="linear-gradient-background quote-figure">
+        "striving to achieve my dreams"
+      </h2>
+    </header>
+
+    <!-- Body -->
+    <main>
+      <figure>
+        <div class="figure-div">
+          <h2 id="about-me">About Me</h2>
+          <div class="figure-aboutme-div">
+          <img src="./assets/images/avatar-img.jpeg" alt="" />
+
+          <!-- <div class="figure-aboutme-div"> -->
+            <p class="figure-aboutme">
+              Originally from Australia now living in San Diego. Finding a
+              balance between work and life.Being a loving mother that wants to
+              show her children that following your dreams is possible with hard
+              work and dedication. Ready and determined to pursue my passion of
+              becoming a front-end developer. I am currently in an internship as
+              a front-end developer and attending UCSD extension classes for
+              full-stack development. I have a Bachelor of Science and a
+              two-year diploma in Education and I also attended AnnieCannons
+              boot camp for front-end development.
+            </p>
+          </div>
+        </div>
+      </figure>
+      <div>
+        <h2 id="my-work">My Work</h2>
+        <!-- <section class="card-1"> -->
+
+        <!-- <header>Project 1</header>
+          <img src="./assets/images/computer-science5.jpeg" alt="" /> -->
+
+        <!-- </section> -->
+        <div class="projects">
+          <!-- <section class=" card card-large">
+          
+            <header>Project 1</header>
+           <img  class="card-images"  src="./assets/images/black-gold1.jpeg" alt="" /> 
+           </section> -->
+
+          <section class="test">
+            <header>Project 1</header>
+            <img
+              class="big-card"
+              src="./assets/images/black-gold1.jpeg"
+              alt=""
+            />
+          </section>
+          <div class="small-card-wrapper">
+          <section class="card">
+            <header>Project 2</header>
+            <img
+              id="seccond-img"
+              class="card-images"
+              src="./assets/images/gold2.jpeg"
+              alt=""
+            />
+          </section>
+          <section class="card">
+            <header>Project 3</header>
+            <img class="card-images" src="./assets/images/gold3.jpeg" alt="" />
+          </section>
+          <section class="card">
+            <header>Project 4</header>
+            <img
+              class="card-images"
+              id="forth-img"
+              src="./assets/images/gold4.jpeg"
+              alt=""
+            />
+          </section>
+          <section class="card">
+            <header>Project 5</header>
+            <img class="card-images" src="./assets/images/gold5.jpeg" alt="" />
+          </section>
+        </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <h2 id="contact-me">Contact Me</h2>
+      <div class="footer-wrapper">
+      <a href="mailto:anabennett77@gamil.com"
+        ><i class="fa fa-envelope" style="font-size: 48px; color: black"></i
+      ></a>
+      <a href="https://github.com/Sydneychick2748"
+        ><i class="fa fa-github fa-3x" style="font-size: 48px; color: black"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/ana-bennett-116051221/"
+        ><i class="fa fa-linkedin-square fa_custom fa-3x"></i
+      ></a>
+    </div>
+    </footer>
+  </body>
+</html>

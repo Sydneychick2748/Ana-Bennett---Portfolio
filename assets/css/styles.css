@@ -1,0 +1,374 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  background: rgba(143, 145, 124, 0.1) 
+}
+
+header {
+  color: rgb(6, 30, 47); 
+  }
+  
+#about-me{
+  text-shadow: 1px 1px 2px yellow;
+  font-size: 20px;
+  font-family: 'Courier Prime', monospace;
+  font-weight: 700;
+  }
+
+  .figure-aboutme {
+    /* font-size: 20px; */
+    font-family: 'Courier Prime', monospace;
+    margin-left: 40px;
+}
+
+  #profile-pic {
+    width: 100%; 
+  }
+
+.name-nav {
+  color: white;
+  text-decoration: none;
+  font-family: 'Courier Prime', monospace;
+  text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+  padding: 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+ 
+  background-color: rgb(50, 47, 42);
+  
+  }
+
+.links-wrapper a{
+margin:1em;
+}
+
+
+nav a {
+  color:rgb(224, 233, 55);
+  background-color: unset;
+    
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+  color: grey;
+}
+
+.linear-gradient-background {
+  background-image: linear-gradient(
+    rgb(134, 134, 100) 0%,
+    rgba(174, 174, 113, 0.6) 100%
+  );
+  text-align: right;
+    font-size: 18px;
+    position: relative;
+    bottom: 40px;
+    font-size: 20px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.figure-div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+
+
+figure img {
+  border-radius: 100%;
+  border: 10px solid black;
+  outline: 3px solid yellow;
+ 
+}
+
+
+  h4 {
+  order: 2;
+  margin-left: 30px;
+  font-style: italic;
+  font-family: 'Courier Prime', monospace;
+  font-weight:400;
+}
+
+
+
+
+.figure-aboutme-div{
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+
+#my-work{
+  text-shadow: 1px 1px 2px yellow;
+display: flex;
+    justify-content: flex-start;
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'Courier Prime', monospace;
+}
+
+
+ .test{
+  width: 95%;
+    margin: auto;
+  border-style: solid; 
+  border-width: 15px; 
+  border-radius: 10px;
+  color:rgb(50, 47, 42);
+  font-family: 'Courier New', Courier, monospace;
+  
+  
+}  
+
+.small-card-wrapper section {
+  width: 45%;
+    margin: 1em;
+}
+
+
+.small-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects{
+  text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+   
+}
+
+
+
+#forth-img{
+  width: 100%;
+    height: 83%;
+}
+
+#seccond-img{
+  width: 100%;
+    height: 83%;
+}
+
+.card img {
+  width: 100%;
+} 
+
+ .card {
+  border-style: solid; 
+  border-width: 15px; 
+  border-radius: 10px;
+   padding: 10px;
+ 
+  color:rgb(50, 47, 42);
+  font-family: 'Courier New', Courier, monospace;
+   margin: 20px; 
+  
+} 
+
+.big-card{
+  width:100%;
+}
+
+
+
+/* .card-1 {
+  width: 90%;
+  border-style: solid; 
+  border-width: 15px;
+  border-radius: 10px;
+  /* padding: 10px; */
+  /* flex: 0 0 400px;
+  color: rgb(50, 47, 42);
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+  width: 70%;
+} */
+
+
+.card header {
+  padding: 20px;
+  color: white;
+  background-color: rgb(50, 47, 42);
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px yellow;
+  width: 50%;
+  position: relative;
+    top: 150px;
+}
+
+.figure-aboutme-div img{
+ 
+  max-height:150px;
+}
+
+
+
+.card-images{
+  opacity: 0.5;
+}
+
+
+.card-images:hover {
+  opacity: 1.0;
+}
+
+
+
+.card p {
+  text-align: center; 
+}
+
+footer a:hover {
+  color: yellow;
+}
+
+footer  .contact-me{
+  color: black;
+  font-family: 'Courier Prime', monospace;
+   align-items: center;
+  display: flex;
+  /* justify-content: space-evenly;  */
+}
+footer{
+  margin-bottom: 4em;
+}
+
+.footer-wrapper{
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#contact-me{
+  text-shadow: 1px 1px 2px yellow;
+  /* display: flex;
+  align-items: center; */
+  font-size: 20px;
+  font-family: 'Courier Prime', monospace;
+  margin-left: 3em;
+}
+
+.card{
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+​
+.card:hover,
+.card:hover img {
+  box-shadow: inset 0px 0px 15px black, 0 0 25px black;
+}
+
+
+.faded
+{
+   opacity:0.5;
+   filter:alpha(opacity=50);  
+}
+
+.faded:hover
+{
+  opacity:1.0;
+  filter:alpha(opacity=100);   
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1067px) {
+  .card {
+    width: 40%;
+    margin: 1em;
+  }
+
+  .small-card-wrapper section {
+    width: 40%;
+    margin: 1em;
+}
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  /* main,
+  nav {
+     flex-direction: column; 
+  } */
+  .links-wrapper{
+  display: flex;
+    flex-direction: column;
+}
+
+.name-nav{
+  font-size: 0.75em;
+}
+
+  .projects {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    flex-direction: column;
+  }
+    
+  .linear-gradient-background {  
+   font-size: 15px;
+  }
+
+  .figure-aboutme-div img{
+    max-width: 150px;
+    max-height: 150px;
+    margin:auto;
+  }
+
+  .figure-aboutme-div{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-direction:column;
+  }
+  .card{
+    padding:0px;
+  }
+  
+  .small-card-wrapper section {
+    /* width: 45%; */
+    margin: 1em;
+    width: 100%;
+
+  }
+  #contact-me{
+    text-align: center;
+  }
+
+#about-me {
+  position: relative;
+    left: 200px;
+}
+
+#my-work{
+  flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+
+}
+
