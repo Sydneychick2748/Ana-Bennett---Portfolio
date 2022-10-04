@@ -7,31 +7,17 @@ body {
   margin: 0;
   background: rgba(143, 145, 124, 0.1) 
 }
-
+  
+/* this is the nav and header section  */
 header {
   color: rgb(6, 30, 47); 
   }
 
   nav {
     background-color: rgb(50, 47, 42);
-     
-     }
+    }
   
-#about-me{
-  text-shadow: 1px 1px 2px yellow;
-  font-size: 20px;
-  font-family: 'Courier Prime', monospace;
-  font-weight: 700;
-  }
 
-  .figure-aboutme {
-    font-family: 'Courier Prime', monospace;
-    margin-left: 40px;
-}
-
-  #profile-pic {
-    width: 100%; 
-  }
 
 .name-nav {
   color: white;
@@ -74,6 +60,23 @@ nav a:hover {
     font-family: 'Courier Prime', monospace;
 }
 
+/* this is the about me section */
+#about-me{
+  text-shadow: 1px 1px 2px yellow;
+  font-size: 20px;
+  font-family: 'Courier Prime', monospace;
+  font-weight: 700;
+  }
+
+  .figure-aboutme {
+    font-family: 'Courier Prime', monospace;
+    margin-left: 40px;
+}
+
+  #profile-pic {
+    width: 100%; 
+  }
+
 .figure-div {
   display: flex;
   align-items: flex-start;
@@ -87,23 +90,17 @@ figure img {
  
 }
 
-  /* h4 {
-  order: 2;
-  margin-left: 30px;
-  font-style: italic;
-  font-family: 'Courier Prime', monospace;
-  font-weight:400;
-} */
-
-
-
-
-.figure-aboutme-div{
+  .figure-aboutme-div{
   display: flex;
   width: 60%;
   margin: auto;
 }
 
+.figure-aboutme-div img{
+  max-height:150px;
+ }
+ 
+  /* this is the card section with cards */
 #my-work{
   text-shadow: 1px 1px 2px yellow;
 display: flex;
@@ -177,10 +174,6 @@ display: flex;
 
 
 
-.figure-aboutme-div img{
- max-height:150px;
-}
-
 .card{
   opacity: 0.5;
 }
@@ -213,7 +206,8 @@ display: flex;
 .card p {
   text-align: center; 
 }
-
+ 
+ /* this is footer section  */
 footer a:hover {
   color: yellow;
 }
@@ -223,7 +217,7 @@ footer  .contact-me{
   font-family: 'Courier Prime', monospace;
    align-items: center;
   display: flex;
-  /* justify-content: space-evenly;  */
+ 
 }
 footer{
   margin-bottom: 4em;
@@ -238,13 +232,12 @@ footer{
 
 #contact-me{
   text-shadow: 1px 1px 2px yellow;
-  /* display: flex;
-  align-items: center; */
   font-size: 20px;
   font-family: 'Courier Prime', monospace;
   margin-left: 3em;
 }
 
+/* this is to make the cards opacity and appear on hover  */
 
 .card:hover,
 .card:hover img {
@@ -293,13 +286,7 @@ footer{
   font-size: 0.75em;
 }
 
-  /* .projects {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    margin-right: 15%;
-    flex-direction: column;
-  } */
+  
   #my-work {
    
     display: flex;
