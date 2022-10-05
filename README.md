@@ -37,9 +37,11 @@ and make it responsive for tablet and mobile.
  
  and they will take you to the corresponding section on the page 
  
+ <img width="970" alt="Screen Shot 2022-10-04 at 5 59 10 PM" src="https://user-images.githubusercontent.com/87034052/193956963-60d798cf-cfd2-456b-8c06-90d5eaac504a.png">
+
  
  
-<img width="900" alt="Screen Shot 2022-10-04 at 5 17 10 PM" src="https://user-images.githubusercontent.com/87034052/193953295-a5feb5d4-bea4-4206-9946-521fbc7bb2dd.png">
+
 
 when you hover on the project then the project will change opacity and when you click on a project card it will take you to one of my live assginments i have deployed 
 
