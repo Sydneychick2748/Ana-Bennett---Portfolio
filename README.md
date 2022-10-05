@@ -32,14 +32,16 @@ and make it responsive for tablet and mobile.
  
  when you go the the nav bar and click on the about me , my work , my contact they will change color on hover
  
- <img width="1022" alt="Screen Shot 2022-10-04 at 4 11 33 PM" src="https://user-images.githubusercontent.com/87034052/193953089-05e8c5ef-1980-4fec-9e10-c4454e74d6aa.png">
+ <img width="970" alt="Screen Shot 2022-10-04 at 5 59 10 PM" src="https://user-images.githubusercontent.com/87034052/193956963-60d798cf-cfd2-456b-8c06-90d5eaac504a.png">
+
  
  
  and they will take you to the corresponding section on the page 
  
- <img width="970" alt="Screen Shot 2022-10-04 at 5 59 10 PM" src="https://user-images.githubusercontent.com/87034052/193956963-60d798cf-cfd2-456b-8c06-90d5eaac504a.png">
-
  
+
+ <img width="825" alt="Screen Shot 2022-10-04 at 6 06 18 PM" src="https://user-images.githubusercontent.com/87034052/193957671-9f4e00e0-1bb6-4634-aec7-34de513db62e.png">
+
  
 
 
