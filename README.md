@@ -8,7 +8,7 @@
 My motivation for this assignment was to build a portfolio page with the exact criteria that we were givin using HTML and CSS.
 I built the project to be able to have a portfolio to showcase my work to potential employers the link is here to the live page https://sydneychick2748.github.io/Ana-Bennett---Portfolio/
 Building this assignment lets you  show case your work and have all your contact information nicely formatted and being able to be mobile and tablet lets people see your portfolio on a smaller device if they choose to.
-Working on this assignment was fun and but challenging using flex-box. Flex-box is a great tool that need to be used for almost every website that i will build so i want to become stronger at flex-box and making this webpage was really good practice you can see the code here 
+Working on this assignment was fun and but challenging using flex-box. Flex-box is a great tool that need to be used for almost every website that i will build so i want to become stronger at flex-box and making this webpage was really good practice you can see the code here https://github.com/Sydneychick2748/Ana-Bennett---Portfolio
 .
 
 
