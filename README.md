@@ -30,22 +30,35 @@ and make it responsive for tablet and mobile.
 
  ## Usage
  
- when you go the the nav bar and click on the about me , my work , my contact they will change color on hover 
+ when you go the the nav bar and click on the about me , my work , my contact they will change color on hover
+ 
  <img width="1022" alt="Screen Shot 2022-10-04 at 4 11 33 PM" src="https://user-images.githubusercontent.com/87034052/193953089-05e8c5ef-1980-4fec-9e10-c4454e74d6aa.png">
+ 
+ 
  and they will take you to the corresponding section on the page 
+ 
+ 
  
 <img width="900" alt="Screen Shot 2022-10-04 at 5 17 10 PM" src="https://user-images.githubusercontent.com/87034052/193953295-a5feb5d4-bea4-4206-9946-521fbc7bb2dd.png">
 
 when you hover on the project then the project will change opacity and when you click on a project card it will take you to one of my live assginments i have deployed 
 
 <img width="821" alt="Screen Shot 2022-10-04 at 5 22 21 PM" src="https://user-images.githubusercontent.com/87034052/193953796-6ce32b97-5039-4072-b144-91ec6dcc526f.png">
+
+
 when you go to mobile then the nav bar is responsive.
 
 <img width="654" alt="Screen Shot 2022-10-04 at 5 23 47 PM" src="https://user-images.githubusercontent.com/87034052/193953907-768262cd-92ef-4bb5-be44-4ffb4ad07d2d.png">
 
 when in mobile view the about me my work and contact me all line up in column
+
+
 <img width="640" alt="Screen Shot 2022-10-04 at 5 25 32 PM" src="https://user-images.githubusercontent.com/87034052/193954068-f4f43391-ce23-4962-8f1b-6dd72b67db04.png">
+
+
 when in mobile view the the project boxes show in a column on top of one another
+
+
 <img width="310" alt="Screen Shot 2022-10-04 at 4 14 25 PM" src="https://user-images.githubusercontent.com/87034052/193955145-749fe019-f00b-4b05-9716-4b2a05c213f5.png">
 
 
