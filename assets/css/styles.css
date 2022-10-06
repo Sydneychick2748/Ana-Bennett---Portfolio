@@ -135,6 +135,10 @@ display: flex;
   flex-wrap: wrap;
 }
 
+.small-card-wrapper a {
+  width: 50%;
+}
+
 .projects{
   text-align: center;
     align-items: center;
@@ -173,7 +177,7 @@ display: flex;
 }
 
 .mini {
-  width: 50%;
+  width: 100%;
   display: flex;
 }
 
@@ -263,11 +267,6 @@ footer{
 }
 
 
-.mini {
-  width: 50%;
-  display: flex;
-}
-
 .small-card-wrapper section {
   width: 100%;
   margin: 1em;
@@ -276,7 +275,7 @@ footer{
 @media screen and (min-width: 769px) and (max-width: 1067px) {
    
 .mini {
-  width: 50%;
+  width: 100%;
   display: flex;
 }
 
@@ -294,6 +293,10 @@ footer{
     width: 100%;
     display: flex;
   }
+
+  .small-card-wrapper a {
+    width: 100%;
+}
   
    .links-wrapper{
   display: flex;
